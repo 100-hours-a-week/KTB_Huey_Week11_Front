@@ -1,0 +1,28 @@
+footer {
+    display: flex;
+    align-items: center;
+}
+
+#stats {
+    display: flex;
+}
+
+.stat {
+    display: flex;
+    min-width: 5.5rem;
+    flex-direction: column;
+    gap: 0.15rem;
+    padding: 0.7rem 1rem;
+    background: var(--paper);
+    font-weight: bold;
+}
+
+.stat span {
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-weight: 400;
+}
+
+.info {
+    display: flex;
+}
